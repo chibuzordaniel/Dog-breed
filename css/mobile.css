@@ -1,0 +1,299 @@
+
+
+
+
+
+
+@media screen and (max-width: 968px) {
+   
+    .navbar-background{
+        height: 150px;
+    }
+
+
+    .nav-logo > span > svg{
+        width: 200px;
+        height: 90px;
+       margin-top:35px;
+    }
+
+
+    .nav-logo > h1{
+       display: none;
+       
+    }
+
+    .nav-flexz {
+        margin-top: 67px;
+        background: none;
+        font-size: 30px;
+        width: 290px;
+    }
+
+
+    .dog-breeds > svg{
+        width: 700px;
+        height: 200px;
+    }
+
+
+    .img-dog > img{
+        width: 960px;
+        margin-left: 118px;
+        height: 820px;
+    }
+
+
+    .dog-breeds > p{
+        font-size: 174px;
+        width: 990px;
+        margin-left: -120px;
+    }
+
+    .dog-breeds{
+       margin-top: 243.6px ;
+       margin-left: 217px;
+       width: 670px;
+    }
+
+    /* section select */
+
+    .breed{
+        position: relative;
+        left: 87px;
+    }
+
+    .sectionA{
+        display: block;
+    }
+
+    .dog-breeds-body > select{
+        min-width: 975px;
+        height: 150px;
+        font-size: 37px;
+    }
+
+    .display-number{
+        position: relative;
+        top: 220px;
+        right: 902px;
+       
+    }
+
+    .btn4 > button{
+        font-size: 37px;
+        width: 975px;
+        height: 150px;
+        margin-left: 105px; 
+        margin-top: 270px;
+    }
+
+
+    .hounds-breeds{
+        margin-left: 95px;
+        width: 900px;
+        font-size: 90px;
+        margin-top: 110px;
+    }
+
+
+    /* footer */
+
+
+    .footer-background{
+        width: 1220px;
+        height: 2400px;
+        
+       
+    }
+
+    .footer{
+        display: block;
+    }
+
+
+    .dog-footer-d{
+        display: block;
+    }
+
+    .footer{
+        padding-left: 200px;
+    }
+
+    .footer-flex {
+     position: relative;
+     right: 140px;
+    
+    }
+
+    .footer-flex > span >svg{
+        width: 300px;
+        height: 120px;
+        margin-left: -98px;
+        
+    }
+
+    .footer-flex > h2{
+        font-size: 65px;
+        padding-left: 140px;
+        margin-top: -70px;
+    }
+
+    .footer-flex > p{
+       margin-top: 90px; 
+       font-size: 35px;
+       line-height: 1.2;
+       width: 800px;
+    }
+
+    .dog-popular{
+        position: relative;
+        right: 50px;
+        top: 50px;
+    }
+
+    .dog-popular h2{
+        font-size: 55px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    
+
+    .dog-popular > p{
+       font-size: 35px; 
+       padding-top: 27px ;
+    }
+
+    
+    .footer-breeds{
+        margin-left: 0px;
+        padding-top: 134px;
+    }
+
+
+    .footer-breeds > h2{
+        font-size: 55px;
+        padding-bottom: 25px;
+    }
+
+    .footer-breeds > p{
+        font-size: 35px;
+        padding-top: 27px ;
+    }
+
+
+    .footer-foot{
+        padding-left: 130px;
+        padding-top: 80px;
+    }
+
+
+    .footer-foot > h2{
+        font-size: 55px;
+        padding-bottom: 15px;
+    }
+
+    .footer-foot > p{
+        font-size: 35px;
+        line-height: 1.1;
+        width: 750px;
+        /* padding-top: 27px ; */
+    }
+
+
+    .footer-five {
+        width: 800px;
+        height: 109px;
+    }
+
+
+    .footer-five > input{
+        font-size: 35px;
+        padding: 14px;
+    }
+
+    .foot-footer-f {
+     position: relative;
+     left: 442px;
+     bottom: 50px;
+     width: 90px;
+     height: 90px;
+     
+    }
+
+    .foot-footer-f > svg{
+       width: 50px; 
+       height: 50px;
+       margin: 17px;
+    }
+
+    .footer-line{
+     width: 1220px;
+     margin: -60px;
+     margin-top: 120px;
+    }
+
+
+   .dog-breeds-footer{
+       position: relative;
+       top: 700px;
+       left: 65px;
+   }
+
+
+   .dog-breeds-footer > span > svg{
+      width: 50px; 
+      height: 40px;
+   }
+   
+ 
+   .dog-breeds-footer > h3{
+       font-size: 35px ;
+       padding-top:13px ;
+       padding-left: 40px;
+     
+       
+   }
+
+   .dog-breeds-footer2{
+       position: relative;
+       top: 360px;
+       left: 65px;
+   }
+
+   .dog-breeds-footer2 > h3{
+       font-size: 55px;
+       margin-bottom: 30px;
+   }
+
+
+   .dog-breeds-footer2 > select{
+    width: 800px;
+    height: 109px;
+    font-size: 35px;
+    padding-left: 20px;
+   }
+
+
+
+   .dog-breeds-footer3{
+       position: relative;
+       bottom: 70px;
+       left: 65px;
+       
+   }
+
+   .dog-breeds-footer3 > h3{
+       font-size: 55px;
+       
+   }
+
+   .dog-breeds-footer3 > span >svg{
+       width: 300px;
+       height: 130px;
+       
+   }
+
+
+}
