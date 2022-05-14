@@ -15,7 +15,7 @@ body{
 /* DogHub navbar */
 
 .container{
-    max-width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -91,7 +91,7 @@ padding: 6px 6px 13px 15px;
 
 .img-dog img{
     /* width: 100%; */
-    margin-top: 280px;
+    /* margin-top: 280px; */
 }
 
 
@@ -214,9 +214,10 @@ select option{
 
 
 .img-dog > img{
+    flex-wrap: wrap;
     margin-top: 29px;
-    margin: 5px;
-    width: 400px;
+    margin: 7px;
+    width: 374px;
     height: 456px;
     object-fit: cover;
 }
