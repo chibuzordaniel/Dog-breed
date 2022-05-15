@@ -32,7 +32,7 @@
 
 
     .dog-breeds > svg{
-        width: 700px;
+        width: 850px;
         height: 200px;
     }
 
@@ -45,14 +45,15 @@
 
 
     .dog-breeds > p{
-        font-size: 174px;
-        width: 990px;
-        margin-left: -120px;
+        font-size: 194px;
+        width: 1200px;
+        margin-left: -170px;
+        margin-top: 20px;
     }
 
     .dog-breeds{
        margin-top: 243.6px ;
-       margin-left: 217px;
+       margin-left: 223px;
        width: 670px;
     }
 
@@ -67,8 +68,13 @@
         display: block;
     }
 
+
+    .dog-breeds-body{
+        margin-left: 50px;
+    }
+
     .dog-breeds-body > select{
-        min-width: 975px;
+        min-width: 1075px;
         height: 150px;
         font-size: 37px;
     }
@@ -76,21 +82,21 @@
     .display-number{
         position: relative;
         top: 220px;
-        right: 902px;
+        right: 1002px;
        
     }
 
     .btn4 > button{
         font-size: 37px;
-        width: 975px;
+        width: 1072px;
         height: 150px;
-        margin-left: 105px; 
+        margin-left: 155px; 
         margin-top: 270px;
     }
 
 
     .hounds-breeds{
-        margin-left: 95px;
+        margin-left: 119px;
         width: 900px;
         font-size: 90px;
         margin-top: 110px;
@@ -101,7 +107,7 @@
 
 
     .footer-background{
-        width: 1220px;
+        width: 1320px;
         height: 2400px;
         
        
@@ -215,7 +221,7 @@
 
     .foot-footer-f {
      position: relative;
-     left: 442px;
+     left: 422px;
      bottom: 50px;
      width: 90px;
      height: 90px;
@@ -229,7 +235,7 @@
     }
 
     .footer-line{
-     width: 1220px;
+     width: 1320px;
      margin: -60px;
      margin-top: 120px;
     }
@@ -297,3 +303,63 @@
 
 
 }
+
+
+@media screen and (max-width: 300px) {
+
+    .dog-breeds > p{
+    font-size: 170px;
+    padding-left: 187px;
+    }
+
+    .dog-breeds > svg{
+      width: 750px;
+      margin-left: 130px;
+    }
+
+    .dog-breeds{
+        margin-left: 35px;
+    }
+
+
+    .dog-breeds-body{
+        margin-left: 0px;
+    }
+
+    .dog-breeds-body > select{
+        min-width: 965px;
+    }
+
+
+    .display-number{
+     position: absolute;
+     left: 85px;
+    }
+
+
+    .btn4 > button{
+        margin-left: 105px;
+        width: 960px;
+    }
+
+   
+    .hounds-breeds{
+        margin-left: 65px;
+    }
+
+    .left-footer{
+       
+    }
+
+    .footer{
+        margin-left: -40px;
+    }
+
+
+    .dog-footer-d{
+        margin-left: -40px;
+    }
+
+
+}
+
