@@ -342,6 +342,12 @@
         width: 960px;
     }
 
+
+    .img-dog > img{
+        width: 970px;
+        margin-left: 70px;
+    }
+
    
     .hounds-breeds{
         margin-left: 65px;
