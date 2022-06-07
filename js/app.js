@@ -21,6 +21,7 @@ const dogCard = document.querySelector('.dog-card');
 const  breed = document.querySelector('.breed')
 const displayNumber = document.querySelector('.display-number')
 const africa = 'affenpinscher';
+const selectedNumberBreed = document.querySelector('.display-number')
 
 
 
@@ -36,10 +37,10 @@ const africa = 'affenpinscher';
 
 const getNumberOfImages = async (e) => {
   
-for (var i=0; i<=100; i++) {
-  console.log(i);
+// for (var i=0; i<=100; i++) {
+//   console.log(i);
   
-}
+// }
 
   totalNumberOfImages = e.target.value;
   try {
@@ -101,7 +102,7 @@ const getBreedName = (e) => {
 
 selectBreed.addEventListener('click', getBreedName);
 
-const getBreedByName = async (name, num = 12) => {
+const getBreedByName = async (name, num = 15) => {
     try {
       const data = await fetch(`https://dog.ceo/api/breed/${name}/images/random/${num}`)
       const image = await data.json()
@@ -111,16 +112,28 @@ const getBreedByName = async (name, num = 12) => {
     } catch (error) {
       console.log(error.messge, 'Check again')
     }
-} 
+}
 
 
+//for loops for se
+
+let numbers = [];
+for(let i =1; i<=100;i++) numbers.push(i);
+
+// console.log(numbers)
+
+const selectNumber = `
+${numbers.map(number => (`
+<option value=${number}>${number}</option>`))}`
+selectedNumberBreed.innerHTML = selectNumber;
+
+  
+ 
 
 
-
-
-    const defaultDogList = async () => {
+const defaultDogList = async () => {
     try {
-        const data = await fetch(`https://dog.ceo/api/breed/${africa}/images/random/12`);
+        const data = await fetch(`https://dog.ceo/api/breed/${africa}/images/random/20`);
         const defaultData = await data.json();
         // console.log(defaultData.message)
         randomImages(defaultData.message)
